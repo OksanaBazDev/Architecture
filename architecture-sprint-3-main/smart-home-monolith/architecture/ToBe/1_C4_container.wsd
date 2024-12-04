@@ -1,0 +1,62 @@
+@startuml
+!include <C4/C4_Container>
+
+title Диаграмма контейнеров для ЭКО-Системы
+
+Container_Boundary(apiGatewayContainer, "API Gateway") {
+    Container(apiGateway, "API Gateway", "Spring Boot", "Единая точка входа для всех запросов от пользователей")
+}
+
+Container_Boundary(telemetryApiLayerContainer, "Telemetry API Layer") {
+    Container(telemetryApiLayer, "Telemetry API Layer", "Spring Boot", "Принимает данные от датчиков устройств и записывает их в Kafka")
+}
+
+Person(user, "Users", $sprite="person", "Взаимодействует с API Gateway для управления устройствами")
+Container_Ext(sensor, "Sensors", "Датчики отправляют данные телеметрии через Telemetry API Layer")
+
+Container_Boundary(userServiceContainer, "User Service") {
+    Container(userService, "User Service", "Spring Boot", "Управляет данными пользователей и учетными записями")
+    ContainerDb(userDb, "User DB", "PostgreSQL", "Хранит данные о пользователях")    
+} 
+
+Container_Boundary(dataServiceContainer, "DataProcessor Service") {
+    Container(dataService, "DataProcessor Service", "Spring Boot", "Обрабатывает и сохраняет телеметрические данные, поступающие от устройств") 
+    ContainerDb(dataDb, "DataProcessor DB", "mongoDb", "Хранит телеметрические данные от устройств")
+}
+
+Container_Boundary(deviceServiceContainer, "Device Service") {
+    Container(deviceService, "Device Service", "Spring Boot", "Управляет устройствами. Читает данные из Kafka и отправляет их в DataProcessor Service")
+    ContainerDb(deviceDb, "Device DB", "PostgreSQL", "Хранит данные об устройствах")
+}
+
+Container_Boundary(notificationServiceContainer, "Notification Service") {
+    Container(notificationService, "Notification Service", "Spring Boot", "Управляет оповещением пользователей")
+    ContainerDb(notificationDb, "Notification DB", "PostgreSQL", "Хранит данные об оповещениях")
+}
+
+Container_Boundary(kafkaContainer, "Kafka") {
+    Container(kafkaBroker, "Kafka Broker", "Apache Kafka", "Обрабатывает сообщения и управляет топиками")
+    Container(zookeeper, "ZooKeeper", "Apache ZooKeeper", "Координирует и управляет кластером Kafka")    
+    Container(cameraTopic, "topic_camera", "Topic", "Топик для событий системы видеонаблюдения")    
+    Container(heatingTopic, "topic_heating", "Topic", "Топик для событий системы отопления")
+    Container(lightingTopic, "topic_lighting", "Topic", "Топик для событий системы освещения")    
+    Container(gateControlTopic, "topic_gate", "Topic", "Топик для событий системы управления воротами")
+    Container(newTopic, "topic_new", "Topic", "Топик для новых настроек")
+}
+
+Rel(user, apiGateway, "Запрос команд")
+Rel(sensor, telemetryApiLayer, "Отправка данных телеметрии")
+
+Rel(apiGateway, userService, "Доступ к данным пользователя + верификация")
+Rel(apiGateway, deviceService, "Управление и конфигурация устройств")
+Rel(apiGateway, notificationService, "Уведомление пользователя")
+
+Rel(telemetryApiLayer, kafkaBroker, "1. Запись новых данных в топики")
+Rel(deviceService, kafkaBroker, "2. Прослушивание топиков на наличие новых данных")
+Rel(deviceService, dataService, "3. Передача данных телеметрии на сохранение и анализ")
+
+Rel(dataService, kafkaBroker, "4. Запись обработанных данных в топики")
+Rel(notificationService, kafkaBroker, "5. Прослушивание топиков на наличие обработанных данных")
+
+SHOW_LEGEND()
+@enduml

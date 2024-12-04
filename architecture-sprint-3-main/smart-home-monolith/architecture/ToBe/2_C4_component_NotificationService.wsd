@@ -1,0 +1,25 @@
+@startuml
+!include <C4/C4_Component>
+
+title Диаграмма компонента Notification Service
+
+Container_Boundary(notificationServiceContainer, "Notification Service") {
+
+    Component(notificationController, "Notification Controller", "Spring Boot Controller", "Принимает и обрабатывает запросы на запись и получение уведомлений.")
+    Component(notificationManager, "Notification Manager", "Spring Boot Service", "Обрабатывает логику для сохранения и анализа уведомлений.")
+    Component(notificationRepository, "Notification Repository", "Spring Data MongoDB", "Хранит данные об уведомлениях в базе данных.")
+    Component(kafkaConsumer, "Kafka Consumer", "Spring Kafka", "Читает данные из топиков Kafka.")
+
+    Rel(notificationManager, notificationRepository, "Сохраняет и извлекает данные из базы данных")
+    Rel(kafkaConsumer, notificationManager, "Передача данных из топиков")
+}
+
+Container_Ext(kafkaContainer, "Kafka Broker", "Apache Kafka", "Обрабатывает сообщения и управляет топиками")
+Container_Ext(apiGateway, "API Gateway", "Spring Boot", "Единая точка входа для всех запросов от внешних систем.")
+
+Rel(apiGateway, notificationController, "Запросы на настройку уведомлений")
+Rel(notificationController, kafkaContainer, "Читает из топика обработанные данные")
+Rel(notificationController, notificationManager, "Передает данные на обработку")
+
+SHOW_LEGEND()
+@enduml

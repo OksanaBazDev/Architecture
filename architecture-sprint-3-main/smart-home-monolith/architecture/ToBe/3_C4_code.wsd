@@ -1,0 +1,99 @@
+@startuml
+!include <C4/C4_Component>
+
+title Диаграмма кода для основного компонента - Device Service
+
+package "Device Service" {
+    class DeviceDTO {
+        +UUID id
+        +String name
+        +String type
+        +String model
+        +String serial
+        +String description
+        +JSON configuration                        
+        +getTelemetryData(UUID)        
+        +save()
+    }
+
+    class DeviceManager {                                                        
+        UserDTO owner         
+        DeviceGroupDTO devices 
+        DeviceRepository repository 
+        ProviderClient providerClient
+        DataClient dataClient
+        +getAllTelemetryData()
+        +getNotificationData(UUID)                
+        +saveAll()
+    }
+
+    class DeviceRepository {
+        +save(Device)
+        +findById(UUID)
+        +findByUser(UUID)
+        +findByHouse(UUID)
+        +findAll()
+    }
+
+    class TelemetryData {
+        +UUID id
+        +Timestamp timestamp
+        +UUID deviceId
+        +JSON data
+    }
+
+    class NotificationData {
+        +UUID id
+        +Timestamp time
+        +UUID deviceId
+        +JSON ditails
+    }
+
+    
+    class KafkaConsumer {      
+        +consumeNewData(String topic)       
+    }
+
+    class DataClient {
+        +sendProcessedData(TelemetryData)
+        +getTelemetryData(TelemetryData)
+    }
+
+     class Command {
+        +UUID id
+        +String type
+        +JSON parameters  
+        +Device device
+    }
+
+    class ProviderClient {
+        +applyCommand(Command)        
+    }
+
+    class DeviceGroupDTO {
+        +UUID id
+        +String name
+        +List<DeviceDTO> devices
+        +applyCommandToAll(Command)
+    }
+ 
+    ProviderClient --> Command : "sends to API devices"
+
+    DeviceManager --> DataClient : "have"
+    DeviceGroupDTO --> DeviceDTO : "contains"
+    DeviceGroupDTO --> Command : "applies command to all"
+    
+    DeviceManager --> DeviceRepository : "manages"
+
+    DeviceRepository --> DeviceDTO : "manages"
+    DeviceManager--> DeviceDTO : "manages"
+
+    KafkaConsumer --> TelemetryData : "processes"
+
+    DeviceManager --> ProviderClient : "have"
+    DeviceManager --> NotificationData : "get" 
+
+    DataClient --> TelemetryData : "send"
+    DataClient --> TelemetryData : "get"
+}
+@enduml

@@ -1,0 +1,23 @@
+@startuml
+!include <C4/C4_Component>
+
+title Диаграмма компонента DataProcessor Service
+
+Container_Boundary(dataServiceContainer, "DataProcessor Service") {
+
+    Component(dataController, "DataProcessor Controller", "Spring Boot Controller", "Принимает запросы на запись телеметрических данных.")
+    Component(dataManager, "DataProcessor Manager", "Spring Boot Manager", "Реализует логику для сохранения и обработки телеметрических данных.")
+    Component(dataRepository, "DataProcessor Repository", "Spring Data MongoDB", "Хранит телеметрические данные в базе данных.")
+    Component(kafkaProducer, "Kafka Producer", "Spring Kafka", "Публикует обработанные данные в топики Kafka.")
+
+    Rel(dataManager, dataRepository, "Сохраняет и извлекает данные из базы данных")
+    Rel(dataManager, kafkaProducer, "Запись данных в топики")
+}
+
+Container_Ext(deviceService, "Device Service", "Spring Boot", "Передает данные в DataProcessor Service.")
+
+Rel(deviceService, dataController, "Отправляет данные телеметрии на сохранение и обработку")
+Rel(dataController, dataManager, "Передает данные на обработку")
+
+SHOW_LEGEND()
+@enduml

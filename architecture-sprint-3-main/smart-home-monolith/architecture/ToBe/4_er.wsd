@@ -1,0 +1,48 @@
+@startuml
+
+title ER Диаграмма 
+
+entity "User" as user {
+  * id : UUID
+  * username : String
+  * password : String
+  * email : String  
+}
+
+entity "House" as house {
+  * id : UUID
+  * address : String
+  * user_id : UUID
+}
+
+entity "Device" as device {
+  * id : UUID
+  * name : String
+  * type : String
+  * model : String
+  * serial_number : String
+  * configuration : JSON
+  * description : String
+  * houseId : UUID
+}
+
+entity "Notification" as notification {
+  * id : UUID
+  * device_id : UUID
+  * time : Timestamp
+  * ditails : JSON
+}
+
+entity "TelemetryData" as telemetryData {
+  * id : UUID
+  * time : Timestamp
+  * device_id : UUID
+  * data : JSON
+}
+
+user --o{ house : owns
+house --o{ device : contains
+device --o{ telemetryData : generates
+device --o{ notification : generates
+
+@enduml

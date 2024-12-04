@@ -1,0 +1,16 @@
+@startuml
+!include <C4/C4_Context>
+
+title Диаграмма контекста для ЭКО-Системы
+
+Person(user, "Пользователь", $sprite="person", "Владелец системы")
+
+System(eco_system, "ЭКО-Система", "Управление и мониторинг устройств")
+
+System_Ext(sensor, "sensor", "Датчики устройств")
+
+Rel(user, eco_system, "Управление конфигурацией системы, мониторинг")
+Rel(sensor, eco_system,  "Отправка телеметрии")
+
+SHOW_LEGEND()
+@enduml
