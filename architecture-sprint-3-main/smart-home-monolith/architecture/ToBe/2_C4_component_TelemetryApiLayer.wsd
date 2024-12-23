@@ -1,0 +1,23 @@
+@startuml
+!include <C4/C4_Component>
+
+title Диаграмма компонента Telemetry API Layer
+
+Container_Boundary(telemetryApiLayerContainer, "Telemetry API Layer") {
+
+    Component(telemetryController, "Telemetry Controller", "Spring Boot Controller", "Принимает данные от датчиков.")
+    Component(telemetryManager, "Telemetry Manager", "Spring Boot Manager", "Обрабатывает данные, полученные от датчиков, и направляет их в Kafka.")
+    Component(kafkaProducer, "Kafka Producer", "Spring Kafka", "Публикует новые данные от датчиков в топики Kafka.")
+
+}
+
+Container_Ext(kafkaBroker, "Kafka Broker", "Apache Kafka", "Обрабатывает сообщения и управляет топиками.")
+Container_Ext(sensor, "Датчики", "Отправляют данные через Telemetry API Layer.")
+
+Rel(sensor, telemetryController, "Отправляет данные телеметрии")
+Rel(telemetryController, telemetryManager, "Передает данные на обработку")
+Rel(telemetryManager, kafkaProducer, "Записывает данные в Kafka топики")
+Rel(kafkaProducer, kafkaBroker, "Записывает данные в Kafka топики")
+
+SHOW_LEGEND()
+@enduml

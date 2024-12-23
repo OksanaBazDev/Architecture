@@ -1,0 +1,24 @@
+@startuml
+!include <C4/C4_Component>
+
+title Диаграмма компонента User Service
+
+Container_Boundary(userServiceContainer, "User Service") {
+
+    Component(userController, "User Controller", "Spring Boot Controller", "Обрабатывает запросы на управление пользователями и их учетными записями.")
+    Component(userManager, "User Manager", "Spring Boot Manager", "Управляет бизнес-логикой для пользователей, аутентификацию и авторизацию.")
+    Component(userRepository, "User Repository", "Spring Data JPA", "Хранит и управляет данными пользователей.")
+    Component(authClient, "Auth Client", "Rest Client", "Взаимодействует с системой аутентификации.")
+
+    Rel(userController, userManager, "Направляет запросы на управление пользователями")
+    Rel(userManager, userRepository, "Получает и сохраняет данные пользователей")
+    Rel(userManager, authClient, "Отправляет запросы на аутентификацию и авторизацию")
+
+}
+
+Container_Ext(apiGateway, "API Gateway", "Spring Boot", "Центральная точка входа для всех запросов от внешних систем.")
+
+Rel(apiGateway, userController, "Запросы на управление пользователями и учетными записями")
+
+SHOW_LEGEND()
+@enduml

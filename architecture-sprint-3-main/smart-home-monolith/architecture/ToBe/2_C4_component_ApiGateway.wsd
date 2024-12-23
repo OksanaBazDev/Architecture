@@ -1,0 +1,23 @@
+@startuml
+!include <C4/C4_Component>
+
+title Диаграмма компонента API Gateway
+
+Container_Boundary(apiGatewayContainer, "Kong API Gateway") {
+
+    Component(apiGatewayController, "Kong API Gateway", "", "Принимает и маршрутизирует запросы от внешних систем.")
+    Component(apiGatewayConfig, "API Gateway Configuration", "Kong Configuration", "Конфигурация маршрутизации и плагинов для Kong.")
+
+    Rel(apiGatewayController, apiGatewayConfig, "")
+}
+
+Container_Ext(deviceService, "Device Service", "Spring Boot", "Управляет устройствами.")
+Container_Ext(userService, "User Service", "Spring Boot", "Управляет данными пользователей.")
+Container_Ext(notificationService, "Notification Service", "Spring Boot", "Управляет уведомлениями пользователей.")
+
+Rel(apiGatewayController, deviceService, "Передает запросы на управление и конфигурацию устройств")
+Rel(apiGatewayController, userService, "Передает запросы на управление пользователями")
+Rel(apiGatewayController, notificationService, "Передает запросы на управление уведомлениями")
+
+SHOW_LEGEND()
+@enduml
