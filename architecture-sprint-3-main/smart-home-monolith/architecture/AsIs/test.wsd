@@ -1,0 +1,92 @@
+@startuml
+!define RECTANGLE class
+
+package "Пользовательский интерфейс" {
+    RECTANGLE ПУТЬ_К_ДАННЫМ {
+        + логин()
+        + регистрация()
+        + просмотр_продуктов()
+        + оформление_заказа()
+        + управление_аккаунтом()
+    }
+}
+
+package "Сервисы" {
+    RECTANGLE УСЛУГА_АВТОРИЗАЦИИ {
+        + authenticate(userData)
+    }
+
+    RECTANGLE УСЛУГА_ПОЛЬЗОВАТЕЛЯ {
+        + getUser(userId)
+        + updateUser(userId, userData)
+        + deleteUser(userId)
+    }
+
+    RECTANGLE УСЛУГА_ПРОДУКТЫ {
+        + getAllProducts()
+        + getProduct(productId)
+        + addProduct(productData)
+        + updateProduct(productId, productData)
+        + deleteProduct(productId)
+    }
+
+    RECTANGLE УСЛУГА_ЗАКАЗОВ {
+        + createOrder(orderData)
+        + getOrder(orderId)
+        + updateOrder(orderId, orderData)
+        + cancelOrder(orderId)
+    }
+
+    RECTANGLE УСЛУГА_УВЕДОМЛЕНИЙ {
+        + sendNotification(userId, message)
+        + getNotifications(userId)
+    }
+}
+
+package "База данных" {
+    RECTANGLE ТАБЛИЦА_ПОЛЬЗОВАТЕЛЕЙ {
+        + add(userData)
+        + delete(userId)
+        + update(userId, userData)
+        + find(userId)
+    }
+
+    RECTANGLE ТАБЛИЦА_ПРОДУКТОВ {
+        + add(productData)
+        + delete(productId)
+        + update(productId, productData)
+        + find(productId)
+    }
+
+    RECTANGLE ТАБЛИЦА_ЗАКАЗОВ {
+        + add(orderData)
+        + delete(orderId)
+        + update(orderId, orderData)
+        + find(orderId)
+    }
+
+    RECTANGLE ТАБЛИЦА_УВЕДОМЛЕНИЙ {
+        + add(userId, message)
+        + delete(notificationId)
+        + getAll(userId)
+    }
+}
+
+ПУТЬ_К_ДАННЫМ --> УСЛУГА_АВТОРИЗАЦИИ: запросы на авторизацию
+УСЛУГА_АВТОРИЗАЦИИ --> ТАБЛИЦА_ПОЛЬЗОВАТЕЛЕЙ: проверка пользователя
+
+ПУТЬ_К_ДАННЫМ --> УСЛУГА_ПОЛЬЗОВАТЕЛЯ: запросы на информацию о пользователе
+УСЛУГА_ПОЛЬЗОВАТЕЛЯ --> ТАБЛИЦА_ПОЛЬЗОВАТЕЛЕЙ: действия с данными пользователя
+
+ПУТЬ_К_ДАННЫМ --> УСЛУГА_ПРОДУКТЫ: запросы на просмотр и управление продуктами
+УСЛУГА_ПРОДУКТЫ --> ТАБЛИЦА_ПРОДУКТОВ: действия с данными продуктов
+
+ПУТЬ_К_ДАННЫМ --> УСЛУГА_ЗАКАЗОВ: оформление заказов
+УСЛУГА_ЗАКАЗОВ --> ТАБЛИЦА_ЗАКАЗОВ: действия с данными заказов
+
+УСЛУГА_УВЕДОМЛЕНИЙ --> ТАБЛИЦА_УВЕДОМЛЕНИЙ: взаимодействие с хранилищем уведомлений
+
+УСЛУГА_ЗАКАЗОВ --> УСЛУГА_УВЕДОМЛЕНИЙ: отправка уведомления о статусе заказа
+УСЛУГА_ПОЛЬЗОВАТЕЛЯ --> УСЛУГА_УВЕДОМЛЕНИЙ: отправка уведомлений пользователю
+
+@enduml
