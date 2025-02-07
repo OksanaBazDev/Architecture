@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: scaletestapp-service
+  labels:
+    app: scaletestapp
+spec:
+  type: LoadBalancer  # Используйте LoadBalancer для внешнего доступа или ClusterIP для внутреннего
+  ports:
+  - port: 8080          # Порт, на котором Service будет доступен
+    targetPort: 8080    # Порт, на котором работает ваше приложение (containerPort в Deployment)
+  selector:
+    app: scaletestapp  # Должен совпадать с метками вашего Deployment
