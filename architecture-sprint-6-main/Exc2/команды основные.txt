@@ -1,0 +1,26 @@
+ minikube start --driver=hyperv
+ minikube addons enable metrics-server
+ minikube  status
+ 
+ kubectl apply -f D:\GITHub\Architecture\architecture-sprint-6-main\Exc2\scaletestapp-deployment.yaml
+ kubectl apply -f D:\GITHub\Architecture\architecture-sprint-6-main\Exc2\service.yaml
+ kubectl apply -f D:\GITHub\Architecture\architecture-sprint-6-main\Exc2\hpa.yaml
+ 
+ kubectl get nodes
+ kubectl get deployments
+ kubectl get hpa
+ 
+ minikube service list
+ 
+ minikube stop
+ minikube dashboard
+ 
+ ---   
+ docker login
+ docker pull shestera/scaletestapp
+ docker run -p 8080:8080 shestera/scaletestapp
+ docker ps
+ 
+ --переименовать на container-scale-test-app
+ docker ps -a
+ docker rename старое_имя новое_имя
