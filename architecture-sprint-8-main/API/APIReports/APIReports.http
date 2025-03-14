@@ -1,0 +1,6 @@
+@APIReports_HostAddress = http://localhost:5224
+
+GET {{APIReports_HostAddress}}/reports/
+Accept: application/json
+
+###

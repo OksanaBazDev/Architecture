@@ -1,0 +1,206 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "M:\\sp8\\API\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3263CB73-C95D-41F7-BADD-CE9BF893F0AD}|APIReports\\APIReports.csproj|m:\\sp8\\api\\apireports\\controllers\\reportscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3263CB73-C95D-41F7-BADD-CE9BF893F0AD}|APIReports\\APIReports.csproj|solutionrelative:apireports\\controllers\\reportscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3263CB73-C95D-41F7-BADD-CE9BF893F0AD}|APIReports\\APIReports.csproj|m:\\sp8\\api\\apireports\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3263CB73-C95D-41F7-BADD-CE9BF893F0AD}|APIReports\\APIReports.csproj|solutionrelative:apireports\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3263CB73-C95D-41F7-BADD-CE9BF893F0AD}|APIReports\\APIReports.csproj|m:\\sp8\\api\\apireports\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{3263CB73-C95D-41F7-BADD-CE9BF893F0AD}|APIReports\\APIReports.csproj|solutionrelative:apireports\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3263CB73-C95D-41F7-BADD-CE9BF893F0AD}|APIReports\\APIReports.csproj|m:\\sp8\\api\\apireports\\apireports.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{3263CB73-C95D-41F7-BADD-CE9BF893F0AD}|APIReports\\APIReports.csproj|solutionrelative:apireports\\apireports.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3263CB73-C95D-41F7-BADD-CE9BF893F0AD}|APIReports\\APIReports.csproj|m:\\sp8\\api\\apireports\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{3263CB73-C95D-41F7-BADD-CE9BF893F0AD}|APIReports\\APIReports.csproj|solutionrelative:apireports\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3263CB73-C95D-41F7-BADD-CE9BF893F0AD}|APIReports\\APIReports.csproj|m:\\sp8\\api\\apireports\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{3263CB73-C95D-41F7-BADD-CE9BF893F0AD}|APIReports\\APIReports.csproj|solutionrelative:apireports\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 14,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:140:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:138:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:137:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:136:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "M:\\sp8\\API\\APIReports\\appsettings.json",
+              "RelativeDocumentMoniker": "APIReports\\appsettings.json",
+              "ToolTip": "M:\\sp8\\API\\APIReports\\appsettings.json",
+              "RelativeToolTip": "APIReports\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-14T13:02:08.044Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "APIReports.http",
+              "DocumentMoniker": "M:\\sp8\\API\\APIReports\\APIReports.http",
+              "RelativeDocumentMoniker": "APIReports\\APIReports.http",
+              "ToolTip": "M:\\sp8\\API\\APIReports\\APIReports.http",
+              "RelativeToolTip": "APIReports\\APIReports.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2025-03-14T11:34:05.996Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "M:\\sp8\\API\\APIReports\\Dockerfile",
+              "RelativeDocumentMoniker": "APIReports\\Dockerfile",
+              "ToolTip": "M:\\sp8\\API\\APIReports\\Dockerfile",
+              "RelativeToolTip": "APIReports\\Dockerfile",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-03-13T13:31:24.904Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "M:\\sp8\\API\\APIReports\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "APIReports\\Properties\\launchSettings.json",
+              "ToolTip": "M:\\sp8\\API\\APIReports\\Properties\\launchSettings.json",
+              "RelativeToolTip": "APIReports\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAcwBcAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-13T13:04:04.019Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "M:\\sp8\\API\\APIReports\\Program.cs",
+              "RelativeDocumentMoniker": "APIReports\\Program.cs",
+              "ToolTip": "M:\\sp8\\API\\APIReports\\Program.cs",
+              "RelativeToolTip": "APIReports\\Program.cs",
+              "ViewState": "AgIAADkAAAAAAAAAAAAAAC8AAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T17:41:48.357Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ReportsController.cs",
+              "DocumentMoniker": "M:\\sp8\\API\\APIReports\\Controllers\\ReportsController.cs",
+              "RelativeDocumentMoniker": "APIReports\\Controllers\\ReportsController.cs",
+              "ToolTip": "M:\\sp8\\API\\APIReports\\Controllers\\ReportsController.cs",
+              "RelativeToolTip": "APIReports\\Controllers\\ReportsController.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABgAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T17:37:34.77Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 3,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:137:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:139:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:141:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:142:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:135:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:135:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 37,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

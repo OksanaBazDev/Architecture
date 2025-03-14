@@ -1,0 +1,12 @@
+[
+  {
+    "ContainingType": "ReportsApi.Controllers.ReportsController",
+    "Method": "GetReport",
+    "RelativePath": "api/Reports",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]
