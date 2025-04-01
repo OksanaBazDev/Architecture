@@ -1,0 +1,328 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\GITHub\\Architecture\\architecture-sprint-8-main\\ReportProject\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A9995B9F-A7AF-47F2-86A3-589C7B25F47F}|components{A9995B9F-A7AF-47F2-86A3-589C7B25F47F}|D:\\GITHub\\Architecture\\architecture-sprint-8-main\\ReportProject\\frontend\\src\\components\\ReportPage.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A9995B9F-A7AF-47F2-86A3-589C7B25F47F}|components{A9995B9F-A7AF-47F2-86A3-589C7B25F47F}|solutionrelative:frontend\\src\\components\\ReportPage.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC7D732C-9E10-425B-994B-F83776F0A029}|API\\ReportProject.csproj|d:\\github\\architecture\\architecture-sprint-8-main\\reportproject\\api\\controllers\\reportscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC7D732C-9E10-425B-994B-F83776F0A029}|API\\ReportProject.csproj|solutionrelative:api\\controllers\\reportscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC7D732C-9E10-425B-994B-F83776F0A029}|API\\ReportProject.csproj|d:\\github\\architecture\\architecture-sprint-8-main\\reportproject\\api\\reportproject.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{CC7D732C-9E10-425B-994B-F83776F0A029}|API\\ReportProject.csproj|solutionrelative:api\\reportproject.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A960C37E-4CB3-4726-9046-EDF03533C6EB}|docker-compose.dcproj|d:\\github\\architecture\\architecture-sprint-8-main\\reportproject\\docker-compose.override.yml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A960C37E-4CB3-4726-9046-EDF03533C6EB}|docker-compose.dcproj|solutionrelative:docker-compose.override.yml||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC7D732C-9E10-425B-994B-F83776F0A029}|API\\ReportProject.csproj|d:\\github\\architecture\\architecture-sprint-8-main\\reportproject\\api\\authorize\\reportclaimstransformation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC7D732C-9E10-425B-994B-F83776F0A029}|API\\ReportProject.csproj|solutionrelative:api\\authorize\\reportclaimstransformation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A960C37E-4CB3-4726-9046-EDF03533C6EB}|docker-compose.dcproj|d:\\github\\architecture\\architecture-sprint-8-main\\reportproject\\docker-compose.dcproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{A960C37E-4CB3-4726-9046-EDF03533C6EB}|docker-compose.dcproj|solutionrelative:docker-compose.dcproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A960C37E-4CB3-4726-9046-EDF03533C6EB}|docker-compose.dcproj|d:\\github\\architecture\\architecture-sprint-8-main\\reportproject\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A960C37E-4CB3-4726-9046-EDF03533C6EB}|docker-compose.dcproj|solutionrelative:launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC7D732C-9E10-425B-994B-F83776F0A029}|API\\ReportProject.csproj|d:\\github\\architecture\\architecture-sprint-8-main\\reportproject\\api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC7D732C-9E10-425B-994B-F83776F0A029}|API\\ReportProject.csproj|solutionrelative:api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC7D732C-9E10-425B-994B-F83776F0A029}|API\\ReportProject.csproj|d:\\github\\architecture\\architecture-sprint-8-main\\reportproject\\api\\authorize\\keycloaksettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC7D732C-9E10-425B-994B-F83776F0A029}|API\\ReportProject.csproj|solutionrelative:api\\authorize\\keycloaksettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC7D732C-9E10-425B-994B-F83776F0A029}|API\\ReportProject.csproj|d:\\github\\architecture\\architecture-sprint-8-main\\reportproject\\api\\reportproject.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{CC7D732C-9E10-425B-994B-F83776F0A029}|API\\ReportProject.csproj|solutionrelative:api\\reportproject.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A960C37E-4CB3-4726-9046-EDF03533C6EB}|docker-compose.dcproj|d:\\github\\architecture\\architecture-sprint-8-main\\reportproject\\docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A960C37E-4CB3-4726-9046-EDF03533C6EB}|docker-compose.dcproj|solutionrelative:docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC7D732C-9E10-425B-994B-F83776F0A029}|API\\ReportProject.csproj|d:\\github\\architecture\\architecture-sprint-8-main\\reportproject\\api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{CC7D732C-9E10-425B-994B-F83776F0A029}|API\\ReportProject.csproj|solutionrelative:api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35087ABD-9A29-4B58-A044-10C5FE74AC4C}|keycloak{35087ABD-9A29-4B58-A044-10C5FE74AC4C}|D:\\GITHub\\Architecture\\architecture-sprint-8-main\\ReportProject\\keycloak\\realm-export.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{35087ABD-9A29-4B58-A044-10C5FE74AC4C}|keycloak{35087ABD-9A29-4B58-A044-10C5FE74AC4C}|solutionrelative:keycloak\\realm-export.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A757EF3-F621-4770-BEDD-42072E76D226}|frontend{6A757EF3-F621-4770-BEDD-42072E76D226}|D:\\GITHub\\Architecture\\architecture-sprint-8-main\\ReportProject\\frontend\\.env||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{6A757EF3-F621-4770-BEDD-42072E76D226}|frontend{6A757EF3-F621-4770-BEDD-42072E76D226}|solutionrelative:frontend\\.env||{8B382828-6202-11D1-8870-0000F87579D2}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 9,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:140:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:138:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:137:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:136:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ReportPage.tsx",
+              "DocumentMoniker": "D:\\GITHub\\Architecture\\architecture-sprint-8-main\\ReportProject\\frontend\\src\\components\\ReportPage.tsx",
+              "RelativeDocumentMoniker": "frontend\\src\\components\\ReportPage.tsx",
+              "ToolTip": "D:\\GITHub\\Architecture\\architecture-sprint-8-main\\ReportProject\\frontend\\src\\components\\ReportPage.tsx",
+              "RelativeToolTip": "frontend\\src\\components\\ReportPage.tsx",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAAGIAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2025-03-16T08:00:00.015Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "docker-compose.dcproj",
+              "DocumentMoniker": "D:\\GITHub\\Architecture\\architecture-sprint-8-main\\ReportProject\\docker-compose.dcproj",
+              "RelativeDocumentMoniker": "docker-compose.dcproj",
+              "ToolTip": "D:\\GITHub\\Architecture\\architecture-sprint-8-main\\ReportProject\\docker-compose.dcproj",
+              "RelativeToolTip": "docker-compose.dcproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-03-16T07:46:43.984Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "docker-compose.override.yml",
+              "DocumentMoniker": "D:\\GITHub\\Architecture\\architecture-sprint-8-main\\ReportProject\\docker-compose.override.yml",
+              "RelativeDocumentMoniker": "docker-compose.override.yml",
+              "ToolTip": "D:\\GITHub\\Architecture\\architecture-sprint-8-main\\ReportProject\\docker-compose.override.yml",
+              "RelativeToolTip": "docker-compose.override.yml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAUwBwAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
+              "WhenOpened": "2025-03-15T09:09:38.948Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ReportProject.http",
+              "DocumentMoniker": "D:\\GITHub\\Architecture\\architecture-sprint-8-main\\ReportProject\\API\\ReportProject.http",
+              "RelativeDocumentMoniker": "API\\ReportProject.http",
+              "ToolTip": "D:\\GITHub\\Architecture\\architecture-sprint-8-main\\ReportProject\\API\\ReportProject.http",
+              "RelativeToolTip": "API\\ReportProject.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2025-03-15T08:58:15.134Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ReportsController.cs",
+              "DocumentMoniker": "D:\\GITHub\\Architecture\\architecture-sprint-8-main\\ReportProject\\API\\Controllers\\ReportsController.cs",
+              "RelativeDocumentMoniker": "API\\Controllers\\ReportsController.cs",
+              "ToolTip": "D:\\GITHub\\Architecture\\architecture-sprint-8-main\\ReportProject\\API\\Controllers\\ReportsController.cs",
+              "RelativeToolTip": "API\\Controllers\\ReportsController.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABEAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-15T08:45:05.508Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "D:\\GITHub\\Architecture\\architecture-sprint-8-main\\ReportProject\\launchSettings.json",
+              "RelativeDocumentMoniker": "launchSettings.json",
+              "ToolTip": "D:\\GITHub\\Architecture\\architecture-sprint-8-main\\ReportProject\\launchSettings.json",
+              "RelativeToolTip": "launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-15T09:50:37.547Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "KeycloakSettings.cs",
+              "DocumentMoniker": "D:\\GITHub\\Architecture\\architecture-sprint-8-main\\ReportProject\\API\\Authorize\\KeycloakSettings.cs",
+              "RelativeDocumentMoniker": "API\\Authorize\\KeycloakSettings.cs",
+              "ToolTip": "D:\\GITHub\\Architecture\\architecture-sprint-8-main\\ReportProject\\API\\Authorize\\KeycloakSettings.cs",
+              "RelativeToolTip": "API\\Authorize\\KeycloakSettings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-15T09:32:52.229Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ReportClaimsTransformation.cs",
+              "DocumentMoniker": "D:\\GITHub\\Architecture\\architecture-sprint-8-main\\ReportProject\\API\\Authorize\\ReportClaimsTransformation.cs",
+              "RelativeDocumentMoniker": "API\\Authorize\\ReportClaimsTransformation.cs",
+              "ToolTip": "D:\\GITHub\\Architecture\\architecture-sprint-8-main\\ReportProject\\API\\Authorize\\ReportClaimsTransformation.cs",
+              "RelativeToolTip": "API\\Authorize\\ReportClaimsTransformation.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-15T09:32:38.249Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "D:\\GITHub\\Architecture\\architecture-sprint-8-main\\ReportProject\\API\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "API\\Properties\\launchSettings.json",
+              "ToolTip": "D:\\GITHub\\Architecture\\architecture-sprint-8-main\\ReportProject\\API\\Properties\\launchSettings.json",
+              "RelativeToolTip": "API\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-15T08:47:56.467Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "realm-export.json",
+              "DocumentMoniker": "D:\\GITHub\\Architecture\\architecture-sprint-8-main\\ReportProject\\keycloak\\realm-export.json",
+              "RelativeDocumentMoniker": "keycloak\\realm-export.json",
+              "ToolTip": "D:\\GITHub\\Architecture\\architecture-sprint-8-main\\ReportProject\\keycloak\\realm-export.json",
+              "RelativeToolTip": "keycloak\\realm-export.json",
+              "ViewState": "AgIAADwAAAAAAAAAAAAAAIAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-15T08:57:25.66Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\GITHub\\Architecture\\architecture-sprint-8-main\\ReportProject\\API\\Program.cs",
+              "RelativeDocumentMoniker": "API\\Program.cs",
+              "ToolTip": "D:\\GITHub\\Architecture\\architecture-sprint-8-main\\ReportProject\\API\\Program.cs",
+              "RelativeToolTip": "API\\Program.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAADwvyQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-15T09:19:15.2Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ReportProject",
+              "DocumentMoniker": "D:\\GITHub\\Architecture\\architecture-sprint-8-main\\ReportProject\\API\\ReportProject.csproj",
+              "RelativeDocumentMoniker": "API\\ReportProject.csproj",
+              "ToolTip": "D:\\GITHub\\Architecture\\architecture-sprint-8-main\\ReportProject\\API\\ReportProject.csproj",
+              "RelativeToolTip": "API\\ReportProject.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-03-15T09:24:35.338Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": ".env",
+              "DocumentMoniker": "D:\\GITHub\\Architecture\\architecture-sprint-8-main\\ReportProject\\frontend\\.env",
+              "RelativeDocumentMoniker": "frontend\\.env",
+              "ToolTip": "D:\\GITHub\\Architecture\\architecture-sprint-8-main\\ReportProject\\frontend\\.env",
+              "RelativeToolTip": "frontend\\.env",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-03-15T08:44:41.872Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "docker-compose.yml",
+              "DocumentMoniker": "D:\\GITHub\\Architecture\\architecture-sprint-8-main\\ReportProject\\docker-compose.yml",
+              "RelativeDocumentMoniker": "docker-compose.yml",
+              "ToolTip": "D:\\GITHub\\Architecture\\architecture-sprint-8-main\\ReportProject\\docker-compose.yml",
+              "RelativeToolTip": "docker-compose.yml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
+              "WhenOpened": "2025-03-15T09:12:52.278Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 3,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:137:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:139:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:141:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:142:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:135:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:135:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 37,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
