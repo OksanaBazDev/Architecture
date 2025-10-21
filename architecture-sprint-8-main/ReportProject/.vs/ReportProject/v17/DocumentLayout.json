@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "D:\\GITHub\\Architecture\\architecture-sprint-8-main\\ReportProject\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{CC7D732C-9E10-425B-994B-F83776F0A029}|API\\ReportProject.csproj|d:\\github\\architecture\\architecture-sprint-8-main\\reportproject\\api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC7D732C-9E10-425B-994B-F83776F0A029}|API\\ReportProject.csproj|solutionrelative:api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A9995B9F-A7AF-47F2-86A3-589C7B25F47F}|components{A9995B9F-A7AF-47F2-86A3-589C7B25F47F}|D:\\GITHub\\Architecture\\architecture-sprint-8-main\\ReportProject\\frontend\\src\\components\\ReportPage.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
       "RelativeMoniker": "D:0:0:{A9995B9F-A7AF-47F2-86A3-589C7B25F47F}|components{A9995B9F-A7AF-47F2-86A3-589C7B25F47F}|solutionrelative:frontend\\src\\components\\ReportPage.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
     },
@@ -29,10 +33,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{A960C37E-4CB3-4726-9046-EDF03533C6EB}|docker-compose.dcproj|d:\\github\\architecture\\architecture-sprint-8-main\\reportproject\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{A960C37E-4CB3-4726-9046-EDF03533C6EB}|docker-compose.dcproj|solutionrelative:launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CC7D732C-9E10-425B-994B-F83776F0A029}|API\\ReportProject.csproj|d:\\github\\architecture\\architecture-sprint-8-main\\reportproject\\api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CC7D732C-9E10-425B-994B-F83776F0A029}|API\\ReportProject.csproj|solutionrelative:api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CC7D732C-9E10-425B-994B-F83776F0A029}|API\\ReportProject.csproj|d:\\github\\architecture\\architecture-sprint-8-main\\reportproject\\api\\authorize\\keycloaksettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -66,8 +66,12 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 19,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:133:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
@@ -105,21 +109,29 @@
               "Name": "ST:136:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:134:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:140:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "ReportPage.tsx",
               "DocumentMoniker": "D:\\GITHub\\Architecture\\architecture-sprint-8-main\\ReportProject\\frontend\\src\\components\\ReportPage.tsx",
               "RelativeDocumentMoniker": "frontend\\src\\components\\ReportPage.tsx",
               "ToolTip": "D:\\GITHub\\Architecture\\architecture-sprint-8-main\\ReportProject\\frontend\\src\\components\\ReportPage.tsx",
               "RelativeToolTip": "frontend\\src\\components\\ReportPage.tsx",
-              "ViewState": "AgIAABgAAAAAAAAAAAAAAGIAAAAOAAAAAAAAAA==",
+              "ViewState": "AgIAAEsAAAAAAAAAAAAAAGIAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
               "WhenOpened": "2025-03-16T08:00:00.015Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "docker-compose.dcproj",
               "DocumentMoniker": "D:\\GITHub\\Architecture\\architecture-sprint-8-main\\ReportProject\\docker-compose.dcproj",
               "RelativeDocumentMoniker": "docker-compose.dcproj",
@@ -131,7 +143,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "docker-compose.override.yml",
               "DocumentMoniker": "D:\\GITHub\\Architecture\\architecture-sprint-8-main\\ReportProject\\docker-compose.override.yml",
               "RelativeDocumentMoniker": "docker-compose.override.yml",
@@ -143,7 +155,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "ReportProject.http",
               "DocumentMoniker": "D:\\GITHub\\Architecture\\architecture-sprint-8-main\\ReportProject\\API\\ReportProject.http",
               "RelativeDocumentMoniker": "API\\ReportProject.http",
@@ -155,7 +167,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "ReportsController.cs",
               "DocumentMoniker": "D:\\GITHub\\Architecture\\architecture-sprint-8-main\\ReportProject\\API\\Controllers\\ReportsController.cs",
               "RelativeDocumentMoniker": "API\\Controllers\\ReportsController.cs",
@@ -167,7 +179,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "launchSettings.json",
               "DocumentMoniker": "D:\\GITHub\\Architecture\\architecture-sprint-8-main\\ReportProject\\launchSettings.json",
               "RelativeDocumentMoniker": "launchSettings.json",
@@ -191,7 +203,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\GITHub\\Architecture\\architecture-sprint-8-main\\ReportProject\\API\\Program.cs",
+              "RelativeDocumentMoniker": "API\\Program.cs",
+              "ToolTip": "D:\\GITHub\\Architecture\\architecture-sprint-8-main\\ReportProject\\API\\Program.cs",
+              "RelativeToolTip": "API\\Program.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAACQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-15T09:19:15.2Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "ReportClaimsTransformation.cs",
               "DocumentMoniker": "D:\\GITHub\\Architecture\\architecture-sprint-8-main\\ReportProject\\API\\Authorize\\ReportClaimsTransformation.cs",
               "RelativeDocumentMoniker": "API\\Authorize\\ReportClaimsTransformation.cs",
@@ -224,18 +249,6 @@
               "ViewState": "AgIAADwAAAAAAAAAAAAAAIAAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2025-03-15T08:57:25.66Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\GITHub\\Architecture\\architecture-sprint-8-main\\ReportProject\\API\\Program.cs",
-              "RelativeDocumentMoniker": "API\\Program.cs",
-              "ToolTip": "D:\\GITHub\\Architecture\\architecture-sprint-8-main\\ReportProject\\API\\Program.cs",
-              "RelativeToolTip": "API\\Program.cs",
-              "ViewState": "AgIAABoAAAAAAAAAAADwvyQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-15T09:19:15.2Z"
             },
             {
               "$type": "Document",
@@ -284,10 +297,6 @@
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:139:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
-              "$type": "Bookmark",
               "Name": "ST:141:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
@@ -297,10 +306,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:135:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:135:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
               "$type": "Bookmark",
@@ -319,6 +324,20 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:141:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 27,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             }
           ]
         }
